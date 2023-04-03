@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello world </title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body><!--Hinh nen vàng kèm theo canh giữa-->
+    <form style="text-align: left;" action="/action_page.php" target="_blank"><!--biểu mẫu được nhập và canh trái và target mở trang web mới-->
+        <label for="fname">Họ:</label><br><!--tiêu đề cho biểu mẫu-->
+        <input type="text" id="fname" name="fname"><br> <!--ô nhập cho biểu mẫu -->
+        <label for="lname">Tên:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <input type="submit" value="Gửi"><!--Tạo ra nút gửi cho biểu mẫu-->
+    </form>
+    <form>
+        <label for="myfile">Select a file:</label> <!--loại đầu vào gắn file-->
+        <input type="file" id="myfile" name="myfile"><!--có thể thay thế id  ,name ,type bằng nhiều cái khác-->
+    <!--ví dụ:
+    <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48"> đầu vào hình ảnh
+ <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email"> đầu vào mail
+  <label for="birthdaytime">Birthday (date and time):</label>
+  <input type="datetime-local" id="birthdaytime" name="birthdaytime"> đầu vào ngày tháng năm
+-->  
+    
+    
+    </form>
+    <h1 style="color: red;">Những Bài Thơ Hay <sup>(Trích Xuân Diệu)</sup></h1> <!--Tiêu đề ưu tiên và màu đỏ,kèm theo xác định chỉ số trên-->
+    <pre><!--xác định văn bản được định sẵn-->
+        Yêu, là chết ở trong lòng một ít,
+        Vì mấy khi yêu mà chắc được yêu?
+        Cho rất nhiều, song nhận chẳng bao nhiêu:
+        Người ta phụ, hoặc thờ ơ, chẳng biết.
+    </pre>
+    <hr> <!--chia theo dấu gạch ngang-->
+    <p> <i>Bảng Điểm:</i><br><q>Tên: Hoài</q></p><!--ghi nội dung bên trong bằng hàm <p> và <i> kiểu định dạng chữ nghiêng, ngoài ra hàm<q> đánh dấu ngoặc kép-->
+    <table><!--tạo bảng-->
+        <ul><!--khung-->
+            <tr>
+                <th>Môn Học</th><!--Tiêu đề-->
+                <td>Toán</td><!--Nội dung-->
+                <td>Vật Lý</td>
+                <td>Hóa Học</td>
+                <td>Tiếng Anh</td>
+            </tr>
+            <tr>
+                <th>Điểm </th>
+                <td>10</td>
+                <td>8</td>
+                <td>9</td>
+                <td>7.5</td>
+            </tr>
+        </ul>
+    </table>
+    <h2>Danh sách những người bạn của tôi:</h2>
+    <ol style="text-align:left;"><!--danh sách có thứ tự-->
+        <li>Nguyễn Văn A</li><!--noi dung-->
+        <dt>Buôn Bán Bất Động Sản</dt>
+        <dt>Chú Thích:Không có Tâm Với Nghề</dt>
+        <li>Nguyễn Văn B</li>
+        <dl>
+        <dt>Nghề Nghiệp: Không có</dt>
+        <dd>Thăng này toàn lùi</dd>
+        </dl>
+        <li>Trần Văn C</li>
+        <li>Lê Thị D</li>
+    </ol>
+    <hr>
+    <a href="https://toploigiai.vn/nhung-doan-van-hay-nhat-the-gioi">LINK ĐỌC</a>
+    <blockquote cite="https://toploigiai.vn/nhung-doan-van-hay-nhat-the-gioi" style="text-align:left;">
+    Muốn xây một tòa tháp vững chãi, bạn cần tạo nền móng chắc chắn ngay từ những viên gạch đầu tiên. Viết văn cũng vậy, để có được một bài
+    văn hay bạn cần chăm chút cho từng đoạn văn.
+    Một đoạn văn hay chưa <span style="color: red;"> chắc</span><!--đánh dấu--> sẽ cho ra đời một tác phẩm hoàn hảo. 
+    Nhưng nếu đoạn <span class="note">văn</span><!--đánh dấu nhưng theo class--> mắc lỗi ngay từ đầu, thì bài văn của bạn sẽ
+    sai hướng ngay đấy!</blockquote>
+    <address style="text-align:left ;"><!--địa chỉ liên lạc tự động in nghiên -->
+        Mọi chi tiết xin liên hệ:<br>
+        Họ Tên:Trần Hoài.<br>
+    </address>
+</body>
+</html>

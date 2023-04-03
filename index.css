@@ -1,0 +1,17 @@
+
+/* Styling the table, th, td, and .note elements. */
+table, th, td{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align:center;
+}
+
+.note{
+    color: rgb(245, 8, 8);
+}
+body{
+    text-align:center;
+    background-image: url("https://cdn.sforum.vn/sforum/wp-content/uploads/2022/12/genshin-xiao-thumb.jpg");
+    background-size: cover;
+    color:aliceblue;
+}
